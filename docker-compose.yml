@@ -9,9 +9,9 @@ services:
   api:
     build: .
     ports:
-      - 9000:9000
+      - 9001:9001
     environment:
-      PORT: 9000
+      PORT: 9001
       MONGODB_URI: mongodb://mongo_db:27017
       DB_NAME: my_db
     depends_on:
